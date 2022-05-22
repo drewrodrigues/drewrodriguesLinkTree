@@ -3,12 +3,14 @@
   "version": "0.0.1",
   "description": "",
   "private": true,
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
+    "parcel": "^2.5.0",
+    "postcss": "^8.4.14",
     "tailwindcss": "^3.0.24"
   },
-  "devDependencies": {},
   "scripts": {
-    "styles": "tailwindcss -i ./src/_precss.css -o ./src/postcss.css --watch"
+    "start": "parcel src/index.html"
   },
   "author": "Drew Rodrigues"
 }

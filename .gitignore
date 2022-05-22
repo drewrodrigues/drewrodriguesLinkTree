@@ -1,2 +1,4 @@
 node_modules
 postcss.css
+dist
+.parcel-cache
